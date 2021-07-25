@@ -85,8 +85,8 @@ void ans8(){
 void ans9(){
     unsigned sum = 0;
     unsigned u = 50;
-    while (++u != 101){
-        sum += u;
+    while (u != 101){
+        sum += u++;
     }
     std::cout << sum << std::endl;
 }
