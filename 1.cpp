@@ -38,6 +38,9 @@ int main(){
     case 8:
         ans8();
         break;
+    case 9:
+        ans9();
+        break;
     default:
         break;
     }
@@ -77,4 +80,13 @@ void ans7(){
 
 void ans8(){
     std::cout << "Only the third statement is not legal. Others are all legal." << std::endl;
+}
+
+void ans9(){
+    unsigned sum = 0;
+    unsigned u = 50;
+    while (++u != 101){
+        sum += u;
+    }
+    std::cout << sum << std::endl;
 }
